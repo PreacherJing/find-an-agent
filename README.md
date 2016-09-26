@@ -1,29 +1,23 @@
-### Get started
+该项目是本人记录的一次按照某教程进行web开发的工程源码，以教程中提供的模板为基础做了修改，算是基本完成了教程内容，仅供参考。
 
-This is a simple boilerplate project for web designer/developer, it contains the following things:
+可能因为教程的作者比较忙，最后并没有整理出教程的最终源代码予以对照，所以本人在学习的过程中遇到一些问题时，苦于没有最终的源码进行比对，查看自己的错误所在（小白一只）
 
-1.	Guardfile to watch changes
-2.	config.rb used for compass
-3.	A very simple HTML5 boilerplate file
+当然，这也迫使我不断地google，stackoverflow新的知识和自己遇到的各种问题，学习了很多知识，如：
 
-To use it, simply clone this repo and :
+1.了解Sass和Compass
 
-```sh
-$ bundle install
-```
+2.Sublime Text 2 的使用以及常用效率插件
 
-After the required `gem`s are installed, you can then run 
+3.了解HTML5+CSS3
 
-```sh
-$ guard start
-```
+4.知道了Google Fonts这种在线字体，还有字体图标这种东西
 
-And if you dont have the amazing chrome [plugin](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei) installed, you should. 
+5.重新捡起git
 
-Once it's installed, open the page in browser, and click the `live reload` button to enabled. You should then see something like this if you have `guard` started:
+6.一些简单使用的设计知识
 
-```
-[1] guard(main)> 23:58:49 - INFO - Browser connected.
-```
 
-That's it, have fun with coding more interesting stuff.
+教程地址:http://icodeit.org/3p3w/
+
+
+教程模板地址:https://github.com/abruzzi/design-boilerplate
