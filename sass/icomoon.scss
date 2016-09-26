@@ -1,0 +1,108 @@
+@import "compass/reset";
+@import "compass/css3";
+
+@import "compass/utilities/general/clearfix";
+
+@import "icomoon";
+
+$bg-color: #efefef;
+$text-color: #3b3b3b;
+$border-color: #9b9b9b;
+$body-color: #F4F3F1;
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 62.5%;
+  text-align: center;
+  color: $text-color;
+  background-color: $body-color;
+}
+
+.how-it-works {
+
+  h2 {
+    font-size: 2em;
+    text-transform: uppercase;
+    padding: 1em 0 2em 0;
+
+    &:after {
+      display: block;
+      content: "";
+      background-color: $border-color;
+      width: 2em;
+      height: .1em;
+      margin: .2em auto;
+    }
+  }
+
+  h3 {
+    font-size: 2em;
+    text-transform: uppercase;
+    padding: 1em 0 2em 0;
+  }
+
+  li {
+    float: left;
+    width: 33.33%;
+    
+    position: relative;
+
+    &:before {
+      display: block;
+      content: "";
+      background-color: $border-color;
+      width: 100%;
+      height: .1em;
+      position: absolute;
+      top: 3.5em;
+      left: 50%;
+      margin-left: 1.5em;
+    }
+
+    &:last-child:before {
+      display: none;
+    }
+
+    .number {
+      font-size: 2em;
+      color: $border-color;
+      border: 1px solid $border-color;
+      width: 1em;
+      height: 1em;
+      display: block;
+      margin: 1em auto 2em auto;
+      padding: .4em;
+      @include border-radius(100%);
+      background-color: $bg-color;
+    }
+
+    i {
+        font-size: 3.6em;
+    }
+
+    .icon-list {
+        color: #ECA95A;
+    }
+
+    .icon-pencil {
+        color: #AC9CD2;
+    }
+
+    .icon-users {
+        color: #4D99CB;
+    }
+
+    h4 {
+      font-size: 1.5em;
+      font-weight: bold;
+      padding: 1em 0;
+    }
+
+    p {
+      color: $border-color;
+      padding: 0 2em;
+      line-height: 1.2;
+    }
+  }
+
+}
